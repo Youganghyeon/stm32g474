@@ -17,17 +17,14 @@ void hwInit(void)
 {
   bspInit();
   gpioInit();
-  //rtcInit();
-  //resetInit();
+  rtcInit();
+  resetInit();
   ledInit();
   usbInit();
   uartInit();
   cliInit();
   buttonInit();
   cdcInit();
-  //spiInit();
-  //flashInit();
-  //ymodemInit();
   usbBegin(USB_CDC_MODE);
 //  spiBegin(_DEF_SPI1);
 

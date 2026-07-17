@@ -1,7 +1,3 @@
-1. Add CDC
-
-2. Add Button
-
-3. Add LED
+1. Add Reset (cli test)
 
 # NOT yet add UART

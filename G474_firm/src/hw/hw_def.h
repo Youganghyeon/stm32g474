@@ -51,7 +51,7 @@
 #define       BOOT_TAG_ADDR         0x8000400
 
 #define HW_CMD_MAX_DATA_LENGTH  (1024)
-//#define       _USE_HW_RTC
-//#define       _USE_HW_RESET
+#define       _USE_HW_RTC
+#define       _USE_HW_RESET
 
 #endif /* SRC_HW_HW_DEF_H_ */
