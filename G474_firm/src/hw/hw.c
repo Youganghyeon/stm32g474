@@ -24,6 +24,7 @@ void hwInit(void)
   uartInit();
   cliInit();
   buttonInit();
+  cdcInit();
   //spiInit();
   //flashInit();
   //ymodemInit();

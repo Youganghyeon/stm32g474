@@ -22,7 +22,7 @@
 #include "usbd_cdc_if.h"
 
 /* USER CODE BEGIN INCLUDE */
-
+#include "cdc.h"
 USBD_CDC_LineCodingTypeDef LineCoding =
     {
         115200,

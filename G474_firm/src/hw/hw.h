@@ -21,15 +21,8 @@
 #include "cli.h"
 #include "button.h"
 #include "gpio.h"
-#include "sd.h"
-#include "fatfs.h"
-#include "spi.h"
-#include "lcd.h"
-#include "ymodem.h"
 #include "cmd.h"
-#include "icm20948.h"
-#include "madgwick.h"
-
+#include "cdc.h"
 void hwInit(void);
 
 

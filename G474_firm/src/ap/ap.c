@@ -8,8 +8,6 @@
 
 #include "ap.h"
 
-#define USE_ICM20948  0
-#define USE_UART  1
 void cliBoot(cli_args_t *args);
 
 //cmd_t cmd;
