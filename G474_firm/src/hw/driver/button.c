@@ -15,7 +15,7 @@ typedef struct{
 
 Button_tbl_t button_tbl[BUTTON_MAX_CH]=
     {
-        {GPIOC, GPIO_PIN_13, GPIO_PIN_RESET},
+        {GPIOC, GPIO_PIN_13, GPIO_PIN_SET},
     };
 
 #ifdef _USE_HW_CLI
